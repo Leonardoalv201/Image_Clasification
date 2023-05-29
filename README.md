@@ -8,7 +8,7 @@ En este repositorio, se encuentra el codigo para la creación de un modelo que r
 
 El dataset se obtuvo de: https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classification
 
-Pasos de la creación del modelo:
+## Pasos de la creación del modelo:
 
 1- Obtencion del dataset en el sitio ya mencionado
 
@@ -71,5 +71,9 @@ Metricas:
 Los modelos ya entrenados se enceuntran en:
 * Modelo base: https://drive.google.com/file/d/1-1wzrfwG1w6FnsCR7QJKfuiAuul5jIfk/view?usp=sharing
 * Modelo final: https://drive.google.com/file/d/19lIzKs4XEpnYLHMeHuwY1NsVi8LRIBuH/view?usp=sharing
+
+Drive con imagenes, codigo y modelos:
+
+* https://drive.google.com/drive/folders/19LfJWtZVNsLxX24-CBW7eWa_c18EMYc4?usp=sharing
 
 Nota1: Algunos comentarios sobre como correr el codigo se encuentran en el doc Untilted0.ipynb
