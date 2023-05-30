@@ -45,6 +45,12 @@ Metricas:
 *   Optimizer = adam
 *   Metrics = accuracy
 
+Nota: 
+* En loss se uso binary crossentropy, ya que queremos clasificar 0 o 1: https://keras.io/api/metrics/probabilistic_metrics/#binarycrossentropy-class
+* En optimizer adam, ya que el método es "computacionalmente eficiente, tiene pocos requisitos de memoria, es invariable al cambio de escala diagonal de gradientes y es muy adecuado para problemas que son grandes en términos de datos/parámetros": https://keras.io/api/optimizers/adam/
+* En metrics accuracy, ya que de igual forma queremos saber si el modelo acerto a su prediccion o no, y el procentaje de predicciones correctas que hay: https://keras.io/api/metrics/accuracy_metrics/#accuracy-class
+
+
 5- Testeo del modelo base
 
 6- Creación y entrenamiento del modelo mejorado con las siguientes caractaristicas:
