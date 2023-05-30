@@ -57,9 +57,11 @@ Nota:
 
 ### Modelo mejorado
 
-Para la mejora del modelo, se cambio la primer capa de un simple Conv2D a un modelo preentrenado VGG16, eliminando sus capas densas finales, se eligio este modelo previo, debido a su facilidad de uso, y gran efectividad. 
+Para la mejora del modelo, se cambio la primer capa de un simple Conv2D a un modelo preentrenado VGG16, eliminando sus capas densas finales, se eligio este modelo, debido a su facilidad de uso y modificación, y la efectividad que tiene al clasificar imagenes.
 
-Para saber mas al respecto, se puede ver en: https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918#:~:text=VGG16%20is%20object%20detection%20and,to%20use%20with%20transfer%20learning.
+Este modelo fue probado en ImageNet, que es un concurso de clasificación y localización de imágenes. VGG16 es una arquitectura de red de 16 capas y pesos entrenados en el conjunto de datos de la competencia por Visual Geometry Group (VGG).
+
+Para saber más al respecto, se puede ver en: https://conx.readthedocs.io/en/latest/VGG16%20and%20ImageNet.html
 
 Capas:
 
