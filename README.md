@@ -51,7 +51,9 @@ Metricas:
 
 ### Modelo mejorado
 
-Para la mejora del modelo, se cambio la primer capa de un simple Conv2D a un modelo preentrenado VGG16, eliminando sus capas densas finales 
+Para la mejora del modelo, se cambio la primer capa de un simple Conv2D a un modelo preentrenado VGG16, eliminando sus capas densas finales, se eligio este modelo previo, debido a su facilidad de uso, y gran efectividad. 
+
+Para saber mas al respecto, se puede ver en: https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918#:~:text=VGG16%20is%20object%20detection%20and,to%20use%20with%20transfer%20learning.
 
 Capas:
 
@@ -67,6 +69,15 @@ Metricas:
 *   Metrics = accuracy
 
 7- Testeo del modelo final
+
+8- Comparación de los modelos
+
+|Metricas  |Modelo base  |Modelo mejorado  |
+|:--------:|:-----------:|:---------------:|
+|loss train|0.4438       |0.1198           |
+|acc train |0.8014       |0.9519           |
+|loss test |0.4008       |0.0561           |
+|acc test  |0.8250       |0.9800           |
 
 Los modelos ya entrenados se enceuntran en:
 * Modelo base: https://drive.google.com/file/d/1-1wzrfwG1w6FnsCR7QJKfuiAuul5jIfk/view?usp=sharing
